@@ -1,0 +1,20 @@
+discord:
+  is-webhook: true # Currently, bot are not supported
+  webhook-url: "https://discord.com/api/webhooks/XXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXX"
+   
+minecraft:
+  events:
+    player:
+      login: false
+      join: true
+      leave: true
+      kick: true
+      death: true
+      chat: true
+    server:
+      plugins:
+        enabled: true
+        disabled: true
+      map:
+        initialized: false
+      
